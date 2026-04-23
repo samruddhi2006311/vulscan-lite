@@ -1,0 +1,6 @@
+Add-Content .gitignore ".env"
+Add-Content .gitignore "venv/"
+Add-Content .gitignore "__pycache__/"
+Add-Content .gitignore "*.pyc"
+Add-Content .gitignore "node_modules/"
+Add-Content .gitignore "*.db"
