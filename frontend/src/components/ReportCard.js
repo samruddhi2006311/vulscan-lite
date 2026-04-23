@@ -2,7 +2,7 @@ import React from 'react';
 import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 
-const API_URL = 'http://127.0.0.1:5000';
+const API_URL = 'https://vulscan-lite.onrender.com';
 
 const fixes = {
   'Content-Security-Policy': `# Nginx

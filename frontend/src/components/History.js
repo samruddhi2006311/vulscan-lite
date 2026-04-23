@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
-const API_URL = 'http://127.0.0.1:5000';
+const API_URL = 'https://vulscan-lite.onrender.com';
 
 const gradeColor = {
   'A': '#00ff88',
