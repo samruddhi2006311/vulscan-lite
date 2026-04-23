@@ -167,24 +167,5 @@ def clear_history():
 def home():
     return jsonify({"message": "VulnScan Lite API is running!"}), 200
 
-
-# ── Start Celery worker in background thread ───────────────
-import threading
-
-def start_celery():
-    import subprocess
-    subprocess.run([
-        sys.executable, '-m', 'celery',
-        '-A', 'api.app.celery',
-        'worker',
-        '--loglevel=info',
-        '--pool=solo',
-        '--concurrency=1'
-    ])
-
-celery_thread = threading.Thread(target=start_celery, daemon=True)
-celery_thread.start()
-
-
 if __name__ == "__main__":
     app.run(debug=True, port=5000)
