@@ -30,7 +30,7 @@ function App() {
             <div className="header-tag">Security Analysis Tool</div>
             <h1>VULN<span>SCAN</span> LITE</h1>
             <p className="header-sub">
-              // passive recon · header analysis · ssl inspection · cms detection
+               passive recon · header analysis · ssl inspection · cms detection
             </p>
           </div>
           <button
@@ -89,7 +89,7 @@ function App() {
                   </span>
                 </p>
                 <p className="loading-sub">
-                  // analyzing headers · ssl · cms · scoring
+                   analyzing headers · ssl · cms · scoring
                 </p>
               </div>
             )}
